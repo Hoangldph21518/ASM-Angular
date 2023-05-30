@@ -1,0 +1,24 @@
+<div>
+    <h1> Danh sách sản phẩm</h1>
+    <table class="table"> 
+        <thead>
+            <tr>
+                <th scope=""> #</th>
+                <th scope="col">name</th>
+                <th scope="col">Giá</th>
+                <th scope="col">ảnh</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            
+            <tr *ngFor="let product of products; index as i">
+                <th scope="col"> {{ i+ 1}} </th>
+                <th scope="col">{{product.name}}</th>
+                <th scope="col">{{product.price}}</th>
+                <th scope="col">{{product.img}}</th>
+                <button (click)="delete(product.id)"> Xóa</button>
+            </tr>
+        </tbody>
+    </table>
+</div>

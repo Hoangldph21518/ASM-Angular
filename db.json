@@ -1,0 +1,28 @@
+{
+  "products": [
+    {
+      "name": "Sản phảm demo 1 update",
+      "price": 500,
+      "img": "ânhr",
+      "id": 4
+    },
+    {
+      "name": "aaaaaaaaaaaa",
+      "price": "1111",
+      "img": "eeeeeeeeeee",
+      "id": 5
+    },
+    {
+      "name": "ahhhhhhh",
+      "price": "022222222",
+      "img": "ahhaha",
+      "id": 6
+    },
+    {
+      "name": "aaaaaaaaaa",
+      "price": "022222",
+      "img": "dddddd",
+      "id": 7
+    }
+  ]
+}

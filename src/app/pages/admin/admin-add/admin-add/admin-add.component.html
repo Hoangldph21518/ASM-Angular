@@ -1,0 +1,17 @@
+<div>
+    <h1>Thêm sản phẩm</h1>
+   
+    <form action=""   [formGroup]="productForm" (ngSubmit)="onHandAdd()" >
+        <div class="mb-3">
+            <input type="text " placeholder="Tên sản phẩm" class=" form-control" formControlName="name">
+        </div>
+        <div class="mb-3">
+            <input type="text " placeholder="Giá sản phẩm" class=" form-control" formControlName="price">
+        </div>
+        <div class="mb-3">
+            <input type="text " placeholder="Ảnh sản phẩm" class=" form-control" formControlName="img">
+            <button type="submit" [disabled]="!productForm.valid">Thêm sản phẩm</button>
+        </div>
+    </form>
+    
+</div>
